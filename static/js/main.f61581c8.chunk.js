@@ -4,7 +4,7 @@ function l(){return Object(u.jsx)(a.a,{channel:"izonelove10291",layout:"video",w
 function g(){return Object(u.jsx)("div",{className:"gutter gutter-horizontal"})}
 function d(){return Object(c.useEffect)((function(){var e=document.createElement("script");return e.src="//client.uchat.io/uchat.js",e.async=!0,
 
-document.body.append(e),function(){e.remove()}}),[]),Object(u.jsx)("u-chat",{room:"oozy1201",style:{width:"100%",height:"100%"}})}
+document.body.append(e),function(){e.remove()}}),[]),Object(u.jsx)("u-chat",{room:"14sex74f5ft9",style:{width:"100%",height:"100%"}})}
 
 var h=function(){return Object(u.jsx)("div",{className:"container max-w-full h-full",children:Object(u.jsxs)("div",{className:"md:flex h-full",
 children:[Object(u.jsx)("div",{className:"h-3/6 md:flex-1 md:h-screen",children:Object(u.jsx)(l,{})}),//트위치플레이어가 들어갈자리
