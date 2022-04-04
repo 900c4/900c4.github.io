@@ -1,6 +1,6 @@
 (this.webpackJsonppoooo=this.webpackJsonppoooo||[]).push([[0],{12:function(e,t,n){"use strict";n.r(t);var c=n(1),i=n.n(c),o=n(3),s=n.n(o),r=(n(9),n(4)),a=n.n(r),u=n(0);
 
-function l(){return Object(u.jsx)(a.a,{channel:"brotheryourlife",layout:"video",width:"100%",height:"100%"})}//channel:도방할 트위치 채널명
+function l(){return Object(u.jsx)(a.a,{channel:"kun21344",layout:"video",width:"100%",height:"100%"})}//channel:도방할 트위치 채널명
 function g(){return Object(u.jsx)("div",{className:"gutter gutter-horizontal"})}
 function d(){return Object(c.useEffect)((function(){var e=document.createElement("script");return e.src="//client.uchat.io/uchat.js",e.async=!0,
 
