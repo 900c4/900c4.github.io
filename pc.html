@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <title>main</title>
@@ -8,33 +7,28 @@
     <script src="https://unpkg.com/jquery.splitter/js/jquery.splitter.js"></script>
     <link href="https://unpkg.com/jquery.splitter/css/jquery.splitter.css" rel="stylesheet"/>
 
-<style>
-    html, body {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-</style>
-
 <script>
     jQuery(function($) {
-        $('#mainContainer').split({orientation:'vertical', position: '78%', limit:100});
+        $('#mainContainer').split({orientation:'vertical', position: '78%',limit:100});
+        $('#livechat').split({orientation:'horizontal', limit:100});
+  
     });
 </script>
 </head>
-<body oncontextmenu='return false' ondragstart='return false' onselectstart='return false'>
+<body oncontextmenu='return false' ondragstart='return false' onselectstart='return false' >
     <div id="mainContainer" style="display: flex; width: 100%; height: 100%;">
         <div id="container">
-            <!-- 유튜브 라이브 주소 및 따옴표 정상 적용 -->
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/live_stream?channel=UCQhJvlkb3PKDEwfE1nUMj0w&autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+        
+            
         </div>
-        <div id="livechat" style="display: flex; flex-direction: column;">
+        <div id="livechat" style=" display: flex; flex-direction: column;">
             <div style="height: 100%;">
-                <iframe width="100%" height="100%" src="./uchat1.html" frameborder="0" allowfullscreen=""></iframe>
+                <iframe width="100%" height="100%" src="./uchat1.html" frameborder="0"  allowfullscreen=""></iframe>
             </div>
         </div>
-    </div>        
+    </div>		
 </body>
+		
 </html>
+
